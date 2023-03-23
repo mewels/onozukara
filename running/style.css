@@ -43,3 +43,7 @@ p {
     margin: inherit;
     text-indent: 2.5em;
 }
+
+ul {
+    list-style-image: url('../images/heartbutton.png');
+}
