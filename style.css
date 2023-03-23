@@ -42,3 +42,7 @@ div.transbox {
 p {
     margin: inherit;
 }
+
+ul {
+    list-style-image: url('images/heartbutton.png');
+}
