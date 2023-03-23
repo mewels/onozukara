@@ -50,18 +50,11 @@ div.transbox {
     overflow: visible;
 }
 
-input[type="checkbox"] {
-    background:url('../images/heartbutton.png') no-repeat;
-    display:inline-block
-}
-
-input[type="checkbox"]:checked {
-    background:url('../images/heartbutton.png') no-repeat;
-    display:inline-block
-
-}
-
 p {
     margin: inherit;
     text-indent: 2.5em;
+}
+
+ul {
+    list-style-image: url('../images/heartbutton.png');
 }
