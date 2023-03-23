@@ -39,6 +39,28 @@ div.transbox {
     padding: 30px;
 }
 
+.content {
+    display: none;
+    overflow: hidden;
+}
+
+.accordion > input[type="checkbox"]:checked ~ .content {
+    height: auto;
+    display: block;
+    overflow: visible;
+}
+
+input[type="checkbox"] {
+    background:url('../images/heartbutton.png') no-repeat;
+    display:inline-block
+}
+
+input[type="checkbox"]:checked {
+    background:url('../images/heartbutton.png') no-repeat;
+    display:inline-block
+
+}
+
 p {
     margin: inherit;
     text-indent: 2.5em;
