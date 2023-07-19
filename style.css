@@ -36,6 +36,7 @@ div {
 div.transbox {
     background-color: rgba(245, 245, 245, 0.589);
     padding: 30px;
+    padding-top: 1px;
 }
 
 p {
@@ -44,4 +45,8 @@ p {
 
 ul {
     list-style-image: url('images/whitepoint.png');
+}
+
+h1 {
+    font-size: 25px;
 }

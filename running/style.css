@@ -1,5 +1,5 @@
 body {
-    background-image: url('images/runningbackpattern.png');
+    background-image: url('images/backpattern_vinvert.png');
 }
 
 a:link {
@@ -21,29 +21,32 @@ a:active {
 }
 
 a:hover {
-    color: white;
+    color: rgb(216, 188, 241);
     background-color: transparent;
     text-decoration: none;
 }
 
 div {
-    max-width: 900px;
+    max-width: 700px;
     margin: auto;
     border: hidden;
-    border-radius: 25px;
+    border-radius: 30px;
 }
 
 div.transbox {
-    background-color: whitesmoke;
-    opacity: .8;
+    background-color: rgba(245, 245, 245, 0.589);
     padding: 30px;
+    padding-top: 1px;
 }
 
 p {
     margin: inherit;
-    text-indent: 2.5em;
 }
 
 ul {
-    list-style-image: url('../images/heartbutton.png');
+    list-style-image: url('images/whitepoint.png');
+}
+
+h1 {
+    font-size: 25px;
 }
