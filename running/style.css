@@ -44,7 +44,7 @@ p {
 }
 
 ul {
-    list-style-image: url('images/whitepoint.png');
+    /* list-style-image: url('../images/whitepoint.png'); */
 }
 
 h1 {
