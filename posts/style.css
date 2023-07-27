@@ -41,6 +41,7 @@ div.transbox {
 
 p {
     margin: inherit;
+    line-height: 1.5;
 }
 
 ul {
