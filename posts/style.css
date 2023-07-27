@@ -1,0 +1,52 @@
+body {
+    background-image: url('images/backpattern_vinvert.png');
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(216, 188, 241);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+div {
+    max-width: 700px;
+    margin: auto;
+    border: hidden;
+    border-radius: 30px;
+}
+
+div.transbox {
+    background-color: rgba(245, 245, 245, 0.589);
+    padding: 30px;
+    padding-top: 1px;
+}
+
+p {
+    margin: inherit;
+}
+
+ul {
+    /* list-style-image: url('../images/whitepoint.png'); */
+}
+
+h1 {
+    font-size: 25px;
+}
